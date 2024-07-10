@@ -1,0 +1,4 @@
+48c48
+< var ENVIRONMENT_IS_NODE = typeof process == 'object' && typeof process.versions == 'object' && typeof process.versions.node == 'string';
+---
+> var ENVIRONMENT_IS_NODE = false;

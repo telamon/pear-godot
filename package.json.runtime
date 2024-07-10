@@ -1,0 +1,21 @@
+{
+  "name": "game",
+  "main": "index.html",
+  "type": "module",
+  "pear": {
+    "name": "godotgame",
+    "type": "desktop",
+    "gui": {
+      "backgroundColor": "#1F2430",
+      "height": 648,
+      "width": 1152
+    }
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "pear dev"
+  },
+  "dependencies": {
+    "hyperswarm": "^4.8.0"
+  }
+}

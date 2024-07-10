@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://igyr0np6m8il"]
+
+[sub_resource type="GDScript" id="GDScript_mtxhg"]
+script/source = "extends Node3D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	$MeshInstance3D.rotate_z(0.1)
+"
+
+[sub_resource type="BoxMesh" id="BoxMesh_funtw"]
+
+[node name="Cyberspace" type="Node3D"]
+script = SubResource("GDScript_mtxhg")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.873075, 0.487585, 0, -0.487585, 0.873075, 0, 0, 0, 1, -0.76147, 0, 0)
+mesh = SubResource("BoxMesh_funtw")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4.35776)

@@ -1,0 +1,7 @@
+game/out
+node_modules
+yarn.lock
+build/
+core/node_modules
+core/yarn*
+Godot_v4.3-beta2_linux.x86_64
