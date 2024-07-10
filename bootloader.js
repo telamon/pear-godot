@@ -1,6 +1,6 @@
 import Hyperswarm from 'hyperswarm'
 // esbuild --bundle ./core/game-core.js --outfile=../build/core.js --format=esm
-// import { boot, onPeerHandler, someAction } from './core.js'
+// import { boot, onPeerHandler, someAction } from './game-core.js'
 const utf8Encoder = new globalThis.TextEncoder()
 export const s2b = s => utf8Encoder.encode(s)
 
