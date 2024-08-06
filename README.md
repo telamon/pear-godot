@@ -13,3 +13,9 @@ and place executable in root folder.
 ```bash
 ./release.sh bprs dev
 ```
+
+Or just play locally
+
+```
+./release.sh bpd dev
+```
